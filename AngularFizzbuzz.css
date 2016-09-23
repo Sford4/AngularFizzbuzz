@@ -1,0 +1,41 @@
+.circle {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 100px;
+
+}
+
+
+
+.fizz{
+	width: 100px;
+	height: 100px;
+	background: red;
+	text-align: center;
+	line-height: 100px;
+}
+
+
+.buzz{
+	width: 100px;
+	height: 100px;
+	background: green;
+	text-align: center;
+	line-height: 100px;
+}
+
+
+.fizzbuzz{
+	width: 100px;
+	height: 100px;
+	background: aqua;
+	text-align: center;
+	line-height: 100px;
+}
+
+

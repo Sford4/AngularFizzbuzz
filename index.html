@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	
+<head>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="AngularFizzbuzz.css"
+	<title>Angular Fizzbuzzzzzzz</title>
+</head>
+<body ng-controller="Results as results">
+	<h1>Fizzbuzz!</h1>
+
+	<div class="row col-xs-3 col-md-4 col-lg-6" >
+	    <div class="col-xs-3 col-md-4 col-lg-6 circle" ng-repeat="result in results.results track by $index" ng-class="{clearfix:$index % 4 === 0, 'fizz':result === 'Fizz', 'buzz': result === 'Buzz', 'fizzbuzz': result === 'Fizzbuzz'}">
+
+	   <!--  "result === 'Fizz' ? 'fizz' : 'circle', result === 'Buzz' ? 'buzz' : 'circle', result === 'Fizzbuzz' ? 'fizzbuzz' : 'circle',"  -->
+	        <div>{{result}}</div>
+	    </div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="angular.filter.min.js" ></script>
+	<script type="text/javascript" src="AngularFizzbuzz.js"></script>
+</body>
+</html>
